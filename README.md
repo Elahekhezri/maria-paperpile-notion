@@ -3,8 +3,10 @@
 Generated from [maria-antoniak/maria-paperpile-notion](https://github.com/maria-antoniak/maria-paperpile-notion) & [https://github.com/seba-1511/sync-paperpile-notion](https://github.com/seba-1511/sync-paperpile-notion). Follow the setup provided by them.
 
 Slight changes to sync.py & sync_to_notion.yaml:
-    1. Updated lines to prevent error: `actions/checkout@v4` line 11; `actions/setup-python@v5` line 14; `python-version: '3.x'` line 16 in [sync_to_notion.yaml](https://github.com/Elahekhezri/maria-paperpile-notion/blob/main/.github/workflows/sync_to_notion.yaml) 
-    2. These columns are removed from [sync.py](https://github.com/Elahekhezri/maria-paperpile-notion/blob/main/sync.py): `Authors`, `Keywords`.
+
+- Updated lines to prevent error: `actions/checkout@v4` line 11; `actions/setup-python@v5` line 14; `python-version: '3.x'` line 16 in [sync_to_notion.yaml](https://github.com/Elahekhezri/maria-paperpile-notion/blob/main/.github/workflows/sync_to_notion.yaml) 
+    
+- These columns are removed from [sync.py](https://github.com/Elahekhezri/maria-paperpile-notion/blob/main/sync.py): `Authors`, `Keywords`.
 
 # Common problems when forking above repositories [Solved]
 
