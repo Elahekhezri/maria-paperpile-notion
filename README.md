@@ -8,7 +8,7 @@ Slight changes to sync.py & sync_to_notion.yaml:
     
 - These columns are removed from [sync.py](https://github.com/Elahekhezri/maria-paperpile-notion/blob/main/sync.py): `Authors`, `Keywords`.
 
-# Common problems when forking above repositories [Solved]
+# Common problems when forking above repositories
 
 ## 1. Deprecated node12 & Node.js version
 
